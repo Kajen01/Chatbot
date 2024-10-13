@@ -41,6 +41,11 @@ body {
     line-height: 50px;
 }
 
+.home-intro span {
+    font-size: 15px;
+    font-weight: 300px;
+}
+
 .chatbot-toggler {
     position: fixed;
     right: 50px;
