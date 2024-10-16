@@ -239,6 +239,16 @@ body {
     box-sizing: border-box;
 }
 
+.thinking-bar {
+    position: absolute;
+    bottom: 69px;
+    left: 20px;
+    background-color: #724ae8;
+    color: white;
+    padding: 5px;
+    animation: blink 0.8s infinite;
+}
+
 .chat-input span {
     align-self: flex-end;
     height: 55px;
