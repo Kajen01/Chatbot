@@ -43,9 +43,14 @@
             </li>
         </ul>
         <div class="chat-input">
+            <select id="bot-selector">
+                <option value="openai">OpenAI-Bot</option>
+                <option value="default">Default-Bot</option>
+            </select>
             <textarea placeholder="Enter a message..." required></textarea>
+            <div class="thinking-bar" style="display:none;">Thinking...</div>
             <span id="send-btn" class="material-symbols-outlined">send</span>
-        </div>
+        </div>       
     </div>
 </body>
 
